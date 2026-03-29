@@ -37,7 +37,7 @@ Fire-Alert-Detection/
 │   ├── camera.py
 │   ├── utils.py
 │   ├── config.py
-│   └── __init__.py   (optional)
+│   └── __init__.py  (optional)
 │
 ├── outputs/
 │   ├── logs/
@@ -47,7 +47,7 @@ Fire-Alert-Detection/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── main.py   (optional root runner)
+└── main.py  (optional root runner)
 
 ## ⚙️ Setup
 
