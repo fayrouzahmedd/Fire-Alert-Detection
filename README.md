@@ -19,22 +19,25 @@ Fire-Alert-Detection/
 ├── models/
 │   ├── cigarettes/
 │   │   └── cigarettes.pt
+│   │
 │   ├── fire/
 │   │   └── fire.pt
+│   │
 │   ├── flames/
 │   │   └── flames.pt
+│   │
 │   └── smoke/
 │       └── smoke.pt
 │
 ├── src/
-│   ├── main.py            # 🚀 real-time engine
-│   ├── pipeline.py        # 🧠 smart cascade logic
-│   ├── detector.py        # 🔍 model runner (lazy loading)
-│   ├── tracker.py         # ⏱ alert cooldown system
-│   ├── camera.py          # 🎥 webcam / RTSP
-│   ├── utils.py           # 🎨 drawing + alert check
-│   ├── config.py          # ⚙️ all configs (paths + logic)
-│   └── __init__.py        # (optional, for package use)
+│   ├── main.py
+│   ├── pipeline.py
+│   ├── detector.py
+│   ├── tracker.py
+│   ├── camera.py
+│   ├── utils.py
+│   ├── config.py
+│   └── __init__.py   (optional)
 │
 ├── outputs/
 │   ├── logs/
@@ -44,7 +47,7 @@ Fire-Alert-Detection/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── main.py (optional runner from root)
+└── main.py   (optional root runner)
 
 ## ⚙️ Setup
 
