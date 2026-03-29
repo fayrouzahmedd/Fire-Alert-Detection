@@ -14,6 +14,7 @@ A real-time computer vision system for detecting:
 - Modular architecture
 
 ## 📁 Project Structure
+```
 Fire-Alert-Detection/
 │
 ├── models/
@@ -48,6 +49,7 @@ Fire-Alert-Detection/
 ├── README.md
 ├── .gitignore
 └── main.py  (optional root runner)
+```
 
 ## ⚙️ Setup
 
